@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  font-family: "Fredoka One", cursive;
+  background-color: #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+
+}
+.logo h1{
+  font-size: 90px;
+}
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+ul li a {
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+}
+.logo a {
+  color: white;
+  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+  cursor: pointer;
+}
+.nav ul li a:hover {
+  color: lightskyblue;
+}
+.logo a:hover {
+  color: white;
+  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+  cursor: pointer;
+  color: lightskyblue;
+}
+#sec1 {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+}
+.f-image {
+  background-color: #ccc;
+  background-image: url(/image/pexels-negative-space-169573.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: 20%;
+   height: 55vh;
+}
+.f-image p {
+  color: white;
+  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+  font-size: 75px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.me2 h1 {
+  font-size: 120px;
+  color: white;
+  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.me2 h1:hover {
+  font-size: 200px;
+  color: white;
+  text-shadow: 5px 4px 10px rgb(88, 91, 92), 15px 4px 30px black;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.me2 div {
+  border: 1px solid transparent;
+  box-shadow: 19px 19px 45px rgb(21, 196, 219);
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin-top: 80px;
+  font-size: 40px;
+  color: gray;
+  transition: 0.5s;
+}
+.me2 div:hover {
+  border: 1px solid transparent;
+  box-shadow: 19px 19px 45px rgb(21, 196, 219);
+  width: 1050px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 55px;
+  margin-top: 80px;
+  
+  color: gray;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+ 
+.text-center h2 {
+  margin-top: 350px;
+  font-size: 70px;
+  margin-bottom: 70px;
+  color: gray;
+  text-align: center;
+  transition: 2s;
+}
+.text-center h2:hover {
+  font-size: 120px;
+  margin-bottom: 70px;
+  color: gray;
+  text-align: center;
+  text-shadow: 5px 4px 10px rgb(88, 91, 92), 15px 4px 30px black;
+
+}
+footer {
+  margin-top: 300px;
+  background-color: black;
+  background-size: cover;
+  background-position: center bottom;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+}
+footer h2 {
+  font-family: "Fredoka One", cursive;
+  color: white;
+  padding-top: 30px;
+  font-size: 60px;
+  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+}
+.pic {
+  width: 50%;
+  height: 500px;
+  margin-bottom: 30px;
+  border: 0.3px solid gray;
+  border-radius: 10px;
+  transition: 2s;
+}
+.pic:hover {
+  width: 80%;
+  height: 700px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  margin-left: 100px;
+  box-shadow: 5px 4px 34px 10px rgb(88, 91, 92), 15px 4px 34px 30px black;
+
+}
+.container-fluid {
+  color: white;
+  font-size: 20px;
+}
+
+.fas,
+.fab {
+  font-size: 50px;
+}
+
+.fab:hover {
+  border: 2px solid transparent;
+  font-size: 110px;
+  text-shadow: 2px 2px 20px rgb(21, 196, 219), 5px 4px 10px white;
+}
+
+.fas:hover {
+  border: 2px solid transparent;
+  font-size: 110px;
+  text-shadow: 2px 2px 20px rgb(21, 196, 219), 5px 4px 10px white;
+}
+footer p {
+  font-size: 30px;
+}
+footer p:hover {
+  font-size: 50px;
+  text-shadow: 2px 2px 20px rgb(21, 196, 219), 5px 4px 10px white;
+}
+
+}
