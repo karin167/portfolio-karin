@@ -96,6 +96,8 @@ ul li a {
   font-size: 40px;
   color: gray;
   transition: 0.5s;
+  padding: 25px;
+  border-radius: 20px;
 }
 .me2 div:hover {
   border: 1px solid transparent;
@@ -107,6 +109,7 @@ ul li a {
   flex-wrap: wrap;
   font-size: 55px;
   margin-top: 80px;
+  
   
   color: gray;
 }
