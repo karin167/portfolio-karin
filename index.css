@@ -20,7 +20,7 @@ body {
 }
 ul li a {
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
 }
 .logo h1 {
@@ -30,7 +30,7 @@ ul li a {
   font-size: 100px;
 }
 .nav ul li a:hover {
-  color: rgb(45, 129, 168);
+  color: lightskyblue;
 }
 
 .neons {

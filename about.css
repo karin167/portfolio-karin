@@ -25,7 +25,7 @@ body {
 }
 ul li a {
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
 }
 .logo a {
@@ -114,7 +114,7 @@ ul li a {
   display: flex;
   justify-content: center;
 }
- 
+
 .text-center h2 {
   margin-top: 350px;
   font-size: 70px;
