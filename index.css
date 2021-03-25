@@ -106,7 +106,7 @@ footer h2 {
 }
 
 img {
-  width: 50%;
+  width: 100px;
   height: 700px;
 }
 .f-s p {
@@ -130,7 +130,6 @@ footer p {
 @media (min-width: 0px) and (max-width: 600px) {
   .logo {
     padding: 20px;
-    margin-left: 20px;
   }
   .nav ul li {
     list-style: none;

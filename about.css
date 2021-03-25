@@ -12,9 +12,8 @@ body {
   height: 12vh;
   position: sticky;
   top: 0;
-
 }
-.logo h1{
+.logo h1 {
   font-size: 50px;
 }
 
@@ -50,11 +49,11 @@ ul li a {
 }
 .f-image {
   background-color: #ccc;
-  background-image: url(/image/pexels-negative-space-169573.jpg);
+  background-image: url(image/pexels-negative-space-169573.jpg);
   background-size: cover;
   background-position: center;
   background-position-y: 20%;
-   height: 55vh;
+  height: 55vh;
 }
 .f-image p {
   color: white;
@@ -104,8 +103,7 @@ ul li a {
   flex-wrap: wrap;
   font-size: 35px;
   margin-top: 80px;
-  
-  
+
   color: gray;
 }
 .center {
@@ -113,20 +111,19 @@ ul li a {
   justify-content: center;
 }
 
-.text-center h2 {
-  margin-top: 300px;
+.check h2 {
+  margin-top: 400px;
   font-size: 40px;
   margin-bottom: 70px;
   color: gray;
   text-align: center;
   transition: 2s;
 }
-.text-center h2:hover {
+.check h2:hover {
   font-size: 50px;
   color: gray;
   text-align: center;
   text-shadow: 5px 4px 10px rgb(88, 91, 92), 15px 4px 30px black;
-
 }
 footer {
   margin-top: 300px;
@@ -160,7 +157,6 @@ footer h2 {
   border-radius: 10px;
   margin-left: 100px;
   box-shadow: 5px 4px 34px 10px rgb(88, 91, 92), 15px 4px 34px 30px black;
-
 }
 .container-fluid {
   color: white;
@@ -170,26 +166,88 @@ footer h2 {
 .fas,
 .fab {
   font-size: 30px;
+  transition: 1s;
 }
 
 .fab:hover {
-  border: 2px solid transparent;
-  font-size: 110px;
-  text-shadow: 2px 2px 20px rgb(21, 196, 219), 5px 4px 10px white;
+  text-shadow: 2px 2px 20px white;
 }
 
 .fas:hover {
-  border: 2px solid transparent;
-  font-size: 110px;
-  text-shadow: 2px 2px 20px rgb(21, 196, 219), 5px 4px 10px white;
+  text-shadow: 2px 2px 20px white;
 }
 footer p {
-  font-size: 20px;
-}
-footer p:hover {
-  font-size: 50px;
-  text-shadow: 2px 2px 20px rgb(21, 196, 219), 5px 4px 10px white;
+  font-size: 10px;
+  color: white;
+  padding: 30px;
 }
 
+@media (min-width: 0px) and (max-width: 600px) {
+  .logo h1 {
+    font-size: 20px;
+  }
+  ul li a {
+    font-size: 15px;
+  }
+  .f-image p {
+    font-size: 15px;
+  }
+  .me2 h1 {
+    font-size: 20px;
+  }
+  .me2 h1:hover {
+    font-size: 30px;
+  }
+  .me2 div {
+    border: 1px solid transparent;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 80px;
+    font-size: 10px;
+  }
+  .me2 div:hover {
+    width: 220px;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .text-center h2 {
+    margin-top: 400px;
+    font-size: 20px;
+    margin-bottom: 70px;
+  }
+  .text-center h2:hover {
+    font-size: 30px;
+  }
+  footer {
+    margin-top: 200px;
+    height: 30vh;
+  }
+  footer h2 {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .pic {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    border: 0.3px solid gray;
+    border-radius: 10px;
+    transition: 2s;
+  }
+  .pic:hover {
+    width: 280px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 5px 4px 34px 10px rgb(88, 91, 92), 15px 4px 34px 30px black;
+  }
+  span {
+    display: none;
+  }
+  .foot div {
+    padding: 30px;
+  }
 }
-
