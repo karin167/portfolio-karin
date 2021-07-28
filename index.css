@@ -65,7 +65,7 @@ ul li a {
   from {
     color: #fff;
     text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black,
-      0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2,
+      0 0 40px #676969, 0 0 50px #676969, 0 0 60px #676969, 0 0 70px #676969,
       0 0 90px #00fff2;
   }
 
@@ -78,12 +78,12 @@ ul li a {
 }
 .carousel-inner h4 {
   color: white;
-  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+  text-shadow: 5px 4px 10px gray, 15px 4px 30px black;
   font-size: 50px;
 }
 .carousel-inner h5 {
   color: white;
-  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+  text-shadow: 5px 4px 10px gray, 15px 4px 30px black;
   font-size: 30px;
 }
 

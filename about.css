@@ -33,13 +33,13 @@ ul li a {
   cursor: pointer;
 }
 .nav ul li a:hover {
-  color: lightskyblue;
+  color: gray;
 }
 .logo a:hover {
   color: white;
   text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
   cursor: pointer;
-  color: lightskyblue;
+  color: gray;
 }
 #sec1 {
   width: 100%;
@@ -57,7 +57,7 @@ ul li a {
 }
 .f-image p {
   color: white;
-  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+  text-shadow: 5px 4px 10px rgb(129, 139, 148), 15px 4px 30px rgb(200, 246, 246);
   font-size: 50px;
   text-align: center;
   padding-top: 30px;
@@ -68,7 +68,7 @@ ul li a {
 .me2 h1 {
   font-size: 50px;
   color: white;
-  text-shadow: 5px 4px 10px rgb(21, 196, 219), 15px 4px 30px black;
+  text-shadow: 5px 4px 10px gray, 15px 4px 30px black;
   padding-top: 20px;
   display: flex;
   justify-content: center;
@@ -81,7 +81,7 @@ ul li a {
 }
 .me2 div {
   border: 1px solid transparent;
-  box-shadow: 19px 19px 45px rgb(21, 196, 219);
+  box-shadow: 19px 19px 45px grey;
   width: 700px;
   margin: 0 auto;
   display: flex;
@@ -96,7 +96,7 @@ ul li a {
 }
 .me2 div:hover {
   border: 1px solid transparent;
-  box-shadow: 19px 19px 45px rgb(21, 196, 219);
+  box-shadow: 19px 19px 45px black;
   width: 800px;
   margin: 0 auto;
   display: flex;
